@@ -1,1 +1,873 @@
-hello world raju
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+
+<head>
+    <meta charset="UTF-8">
+    <title>Wemb : Event Management</title>
+    <link rel="shortcut icon" href="./images/wemb.jpg">
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" type="text/css" href="fonts/vicons/vicons-font.css"/>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/moses.css"/>
+    <link rel="stylesheet" href="css/morphi.css"/>
+    <link rel="stylesheet" href="css/pagination.css"/>
+    <link rel="stylesheet" href="css/U8.css"/>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/pagination.js"></script>
+    <script type="text/javascript" src="js/modernizr.js"></script>
+</head>
+
+<body> <!--data-spy="scroll" data-target=".navbar-fixed-top"-->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<header>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#featured"><h1>Wemb <span class="subhead">Event Management</span></h1></a>
+            </div>
+            <!--navbar-header-->
+            <div class="collapse navbar-collapse" id="collapse">
+                <ul class="nav navbar-nav navbar-right ">
+                    <li class="active"><a href="#featured">Home</a></li>
+                    <li><a href="#mission">Mission</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#staff">Our Team</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+
+                </ul>
+            </div>
+            <!--collapse navbar-collapse-->
+        </div>
+        <!--end container-->
+
+    </nav>
+
+    <div class="carousel fade" data-ride="carousel" id="featured">
+        <ol class="carousel-indicators">
+        </ol>
+
+        <div class="carousel-inner fullheight">
+            <!--<div class="item active"><img src="images/carousel-lifestyle.jpg" alt="Lifestyle Photo"></div>-->
+            <!--<div class="item"><img src="images/carousel-mission.jpg" alt="Mission"></div>-->
+            <!--<div class="item"><img src="images/carousel-vaccinations.jpg" alt="Vaccinations"></div>-->
+            <!--<div class="item"><img src="images/carousel-fish.jpg" alt="Fish"></div>-->
+            <!--<div class="item"><img src="images/carousel-exoticanimals.jpg" alt="Exotic Animals"></div>-->
+
+            <!--<div class="item  ">-->
+            <!--<video autoplay loop muted>-->
+            <!--<source src="pip/WEMB.MP4" type="video/mp4">-->
+            <!--</video>-->
+            <!--</div>-->
+            <div class="item active "><img src="images/ww0.jpg" alt="Lifestyle Photo"></div>
+            <div class="item "><img src="images/ww1.jpg" alt="Lifestyle Photo">
+
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Slide 2</h1>
+
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae egestas purus. </p>
+
+                        <!--<p><a class="btn btn-lg btn-primary" href="#staff" role="button">Learn more</a></p>-->
+                    </div>
+                </div>
+            </div>
+
+            <div class="item "><img src="images/ww2.jpg" alt="Lifestyle Photo"></div>
+            <div class="item "><img src="images/ww3.jpg" alt="Lifestyle Photo"></div>
+            <div class="item "><img src="images/ww4.jpg" alt="Lifestyle Photo"></div>
+            <div class="item "><img src="images/ww5.jpg" alt="Lifestyle Photo"></div>
+            <div class="item "><img src="images/ww6.jpg" alt="Lifestyle Photo"></div>
+        </div>
+        <!--carousel inner-->
+
+        <a class="left carousel-control" href="#featured" role=button data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span></a>
+
+        <a class="right carousel-control" href="#featured" role=button data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span></a>
+
+
+    </div>
+    <!--featured carousel slide-->
+
+</header>
+
+<div class="main">
+
+
+    <!--**********************************************page--mission************************************-->
+    <div class="page " id="mission">
+
+        <div class="content container">
+
+            <h1>Our Mission</h1>
+
+            <div class="row">
+                <div class="col-md-5 col-md-offset-1">
+                    <p>Wisdom Pet Medicine strives to blend the best in traditional and alternative medicine in the
+                        diagnosis
+                        and treatment of companion animals including dogs, cats, birds, reptiles, rodents, and fish.
+                        We
+                        apply
+                        the wisdom garnered in the centuries old tradition of veterinary medicine, to find the
+                        safest
+                        treatments
+                        and&nbsp;cures.</p>
+                </div>
+                <div class="col-md-5 ">
+                    <p>We strive to be your pet's medical experts from youth through the senior years. We build
+                        preventative
+                        health care plans for each and every one of our patients, based on breed, age, and sex, so
+                        that your
+                        pet
+                        receives the most appropriate care at crucial milestones. We want to give your pet a long
+                        and
+                        healthy&nbsp;life.</p>
+                </div>
+            </div>
+            <!--row-->
+        </div>
+        <!--content container-->
+
+    </div>
+    <!-- mission page -->
+
+    <!--**********************************************page--services************************************-->
+    <div class="page" id="services">
+        <div class="content container">
+            <h1>Services</h1>
+
+            <div class="row">
+                <article class="service col-md-4 col-sm-6 col-xs-12">
+                    <img class="icon" src="images/icon-exoticpets.svg" alt="Icon">
+
+                    <h3>Exotic Pets</h3>
+
+                    <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets.</p>
+                </article>
+
+                <article class="service col-md-4 col-sm-6 col-xs-12">
+                    <img class="icon" src="images/icon-grooming.svg" alt="Icon">
+
+                    <h3>Grooming</h3>
+
+                    <p>Our therapeutic grooming treatments help battle fleas, allergic dermatitis, and other
+                        challenging
+                        skin
+                        conditions.</p>
+                </article>
+
+                <article class="service col-md-4 col-sm-6 col-xs-12">
+                    <img class="icon" src="images/icon-health.svg" alt="Icon">
+
+                    <h3>GeneralHealth</h3>
+
+                    <p>Wellness and senior exams, ultrasound, x-ray, and dental cleanings are just a few of our
+                        general
+                        health
+                        services.</p>
+                </article>
+
+                <article class="service col-md-4 col-sm-6 col-xs-12">
+                    <img class="icon" src="images/icon-nutrition.svg" alt="Icon">
+
+                    <h3>Nutrition</h3>
+
+                    <p>Let our nutrition experts review your pet's diet and prescribe a custom nutrition plan for
+                        optimum
+                        health
+                        and disease prevention.</p>
+                </article>
+
+                <article class="service col-md-4 col-sm-6 col-xs-12 ">
+                    <img class="icon" src="images/icon-pestcontrol.svg" alt="Icon">
+
+                    <h3>Pest Control</h3>
+
+                    <p>We offer the latest advances in safe and effective prevention and treatment of fleas, ticks,
+                        worms,
+                        heart
+                        worm, and other parasites.</p>
+                </article>
+
+                <article class="service col-md-4 col-sm-6 col-xs-12 ">
+                    <img class="icon" src="images/icon-vaccinations.svg" alt="Icon">
+
+                    <h3>Vaccinations</h3>
+
+                    <p>Our veterinarians are experienced in modern vaccination protocols that prevent many of the
+                        deadliest
+                        diseases in pets.</p>
+                </article>
+                <article class=" grid">
+                    <figure class="effect-duke ">
+                        <img src="images/ww6.jpg" alt="img24"/>
+                        <figcaption>
+                            <h2>Cute <span>Moses</span></h2>
+
+                            <p>We offer specialized care for reptiles, rodents, birds, and other exotic pets</p>
+                            <a href="#">View more</a>
+                        </figcaption>
+                    </figure>
+                    <figure class="effect-duke ">
+                        <img src="images/ww6.jpg" alt="img24"/>
+                        <figcaption>
+                            <h2>Cute <span>Moses</span></h2>
+
+                            <p>Moses loves to run after butterflies.</p>
+                            <a href="#">View more</a>
+                        </figcaption>
+                    </figure>
+                </article>
+
+
+            </div>
+            <!--row-->
+        </div>
+        <!--content container-->
+    </div>
+    <!-- services page -->
+    <!--**********************************************page--gallery************************************-->
+    <div class="page" id="gallery">
+        <div class="content container">
+            <h1>Gallery</h1>
+
+            <div class="pagination ">
+                <div class="pagination-content">
+
+                    <div class="pagination-item">
+                        <img src="img/1.jpg" alt="image01"/>
+                    </div>
+                    <div class="pagination-item">
+                        <img src="img/2.jpg" alt="image02"/>
+                    </div>
+                    <div class="pagination-item">
+                        <img src="img/3.jpg" alt="image03"/>
+                    </div>
+                    <div class="pagination-item">
+                        <img src="img/4.jpg" alt="image04"/>
+                    </div>
+                    <div class="pagination-item">
+                        <img src="img/5.jpg" alt="image05"/>
+                    </div>
+                    <div class="pagination-item">
+                        <img src="img/6.jpg" alt="image05"/>
+                    </div>
+                    <div class="pagination-item">
+                        <img src="img/7.jpg" alt="image05"/>
+                    </div>
+                    <div class="pagination-item">
+                        <img src="img/8.jpg" alt="image05"/>
+                    </div>
+                    <div class="pagination-item">
+                        <img src="img/9.jpg" alt="image05"/>
+                    </div>
+                    <div class="pagination-item">
+                        <img src="img/10.jpg" alt="image05"/>
+                    </div>
+                    <div class="pagination-item">
+                        <img src="img/11.jpg" alt="image05"/>
+                    </div>
+                    <div class="pagination-item">
+                        <img src="img/12.jpg" alt="image05"/>
+                    </div>
+                </div>
+                <div class="pagination-navigation">
+                    <div class="pagination-current"></div>
+                    <div class="pagination-dots">
+                        <button class="pagination-dot ">
+                            <span class="pagination-number">1</span>
+                        </button>
+                        <button class="pagination-dot">
+                            <span class="pagination-number">2</span>
+                        </button>
+                        <button class="pagination-dot ">
+                            <span class="pagination-number">3</span>
+                        </button>
+                        <button class="pagination-dot ">
+                            <span class="pagination-number">4</span>
+                        </button>
+                        <button class="pagination-dot">
+                            <span class="pagination-number">5</span>
+                        </button>
+                        <button class="pagination-dot">
+                            <span class="pagination-number">6</span>
+                        </button>
+                        <button class="pagination-dot">
+                            <span class="pagination-number">7</span>
+                        </button>
+                        <button class="pagination-dot">
+                            <span class="pagination-number">8</span>
+                        </button>
+                        <button class="pagination-dot">
+                            <span class="pagination-number">9</span>
+                        </button>
+                        <button class="pagination-dot">
+                            <span class="pagination-number">10</span>
+                        </button>
+                        <button class="pagination-dot">
+                            <span class="pagination-number">11</span>
+                        </button>
+                        <button class="pagination-dot">
+                            <span class="pagination-number">12</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width="800">
+                <defs>
+                    <filter id="goo">
+                        <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur"/>
+                        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"
+                                       result="goo"/>
+                        <feComposite in="SourceGraphic" in2="goo" operator="atop"/>
+                    </filter>
+                </defs>
+            </svg>
+        </div>
+    </div>
+
+</div>
+</div>
+<!--**********************************************page--practice************************************-->
+<div class="page">
+    <div class="content container">
+        <h1>Practice</h1>
+
+        <div class=" grid ">
+            <figure class="effect-winston">
+                <img src="img/30.jpg" alt="img30"/>
+                <figcaption>
+                    <h2>Jolly <span>Winston</span></h2>
+
+                    <p>
+                        <a href="#"><i class="fa fa-fw fa-star-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-comments-o"></i></a>
+                        <a href="#"><i class="fa fa-fw fa-envelope-o"></i></a>
+                    </p>
+                </figcaption>
+            </figure>
+            <figure class="effect-bubba ">
+                <img src="images/ww6.jpg" alt="img24"/>
+                <figcaption>
+                    <h2>Cute <span>Moses</span></h2>
+
+                    <p>Moses loves to run after butterflies.</p>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+            <figure class="effect-dexter ">
+                <img src="images/ww6.jpg" alt="img24"/>
+                <figcaption>
+                    <h2>Cute <span>Moses-dexter</span></h2>
+
+                    <p>Moses loves to run after butterflies.</p>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+            <figure class="effect-duke ">
+                <img src="images/ww6.jpg" alt="img24"/>
+                <figcaption>
+                    <h2>Cute <span>Moses-duke</span></h2>
+
+                    <p>Moses loves to run after butterflies.</p>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+            <figure class="effect-goliath ">
+                <img src="images/ww6.jpg" alt="img24"/>
+                <figcaption>
+                    <h2>Cute <span>Moses-goliath</span></h2>
+
+                    <p>Moses loves to run after butterflies.</p>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+            <figure class="effect-hera ">
+                <img src="images/ww6.jpg" alt="img24"/>
+                <figcaption>
+                    <h2>Cute <span>Moses-hera</span></h2>
+
+                    <p>Moses loves to run after butterflies.</p>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+            <figure class="effect-honey ">
+                <img src="images/ww6.jpg" alt="img24"/>
+                <figcaption>
+                    <h2>Cute <span>Moses</span></h2>
+
+                    <p>Moses loves to run after butterflies.</p>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+            <figure class="effect-jazz ">
+                <img src="images/ww6.jpg" alt="img24"/>
+                <figcaption>
+                    <h2>Cute <span>Moses</span></h2>
+
+                    <p>Moses loves to run after butterflies.</p>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+            <figure class="effect-julia ">
+                <img src="images/ww6.jpg" alt="img24"/>
+                <figcaption>
+                    <h2>Cute <span>Moses</span></h2>
+
+                    <p>rrrrrrrrrrr dances in the deep dark</p>
+
+                    <p>She loves the smell of the ocean</p>
+
+                    <p>And dives into the morning light</p>
+
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+            <figure class="effect-kira ">
+                <img src="images/ww6.jpg" alt="img24"/>
+                <figcaption>
+                    <h2>Cute <span>Moses</span></h2>
+
+                    <p>Moses loves to run after butterflies.</p>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+            <figure class="effect-layla ">
+                <img src="images/ww6.jpg" alt="img24"/>
+                <figcaption>
+                    <h2>Cute <span>Moses</span></h2>
+
+                    <p>Moses loves to run after butterflies.</p>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+            <figure class="effect-lexi ">
+                <img src="images/ww6.jpg" alt="img24"/>
+                <figcaption>
+                    <h2>Cute <span>Moses</span></h2>
+
+                    <p>Moses loves to run after butterflies.</p>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+            <figure class="effect-milo ">
+                <img src="images/ww6.jpg" alt="img24"/>
+                <figcaption>
+                    <h2>Cute <span>Moses</span></h2>
+
+                    <p>Moses loves to run after butterflies.</p>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+            <figure class="effect-ming ">
+                <img src="images/ww6.jpg" alt="img24"/>
+                <figcaption>
+                    <h2>Cute <span>Moses</span></h2>
+
+                    <p>Moses loves to run after butterflies.</p>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+
+            <figure class="effect-moses">
+                <img src="images/ww5.jpg" alt="img24"/>
+                <figcaption>
+                    <h2>Cute <span>Moses</span></h2>
+
+                    <p>Moses loves to.</p>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+
+            <figure class="effect-oscar">
+                <img src="images/ww4.jpg" alt="img24"/>
+                <figcaption>
+                    <h2>Cute <span>Moses</span></h2>
+
+                    <p>Moses loves to run after butterflies.</p>
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+
+            <figure class="effect-phoebe">
+                <img src="images/ww4.jpg" alt="img24"/>
+                <figcaption>
+                    <h2>Cute <span>Moses</span></h2>
+
+                    <p>Julia dances in the deep dark</p>
+
+                    <p>She loves the smell of the ocean</p>
+
+                    <p>And dives into the morning light</p>
+
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+            <figure class="effect-romeo">
+                <img src="images/ww4.jpg" alt="img24"/>
+                <figcaption>
+                    <h2>Cute <span>Moses</span></h2>
+
+                    <p>Julia dances in the deep dark</p>
+
+                    <p>She loves the smell of the ocean</p>
+
+                    <p>And dives into the morning light</p>
+
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+            <figure class="effect-roxy">
+                <img src="images/ww4.jpg" alt="img24"/>
+                <figcaption>
+                    <h2>Cute <span>Moses</span></h2>
+
+                    <p>Julia dances in the deep dark</p>
+
+                    <p>She loves the smell of the ocean</p>
+
+                    <p>And dives into the morning light</p>
+
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+            <figure class="effect-ruby">
+                <img src="images/ww4.jpg" alt="img24"/>
+                <figcaption>
+                    <h2>Cute <span>Moses</span></h2>
+
+                    <p>Julia dances in the deep dark</p>
+
+                    <p>She loves the smell of the ocean</p>
+
+                    <p>And dives into the morning light</p>
+
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+            <figure class="effect-terry">
+                <img src="images/ww4.jpg" alt="img24"/>
+                <figcaption>
+                    <h2>Cute <span>Moses</span></h2>
+
+                    <p>Julia dances in the deep dark</p>
+
+                    <p>She loves the smell of the ocean</p>
+
+                    <p>And dives into the morning light</p>
+
+                    <a href="#">View more</a>
+                </figcaption>
+            </figure>
+
+        </div>
+
+
+    </div>
+</div>
+<!-- practice page -->
+
+<!--**********************************************page--team************************************-->
+<div class="page" id="staff">
+    <div class="container">
+        <h1 id="ourstaff">Our team</h1>
+
+        <div class="row">
+            <div class="doctor col-lg-6">
+                <div class="row">
+                    <figure class="effect-ggg photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
+                        <img class="img-circle " src="images/doctor-winthrop.jpg" alt="Photo of Dr Sanders">
+
+                        <p><a target="_blank"
+                              href="https://www.facebook.com/Montasir.Haque?fref=ts"><span
+                                class="fa fa-3x fa-facebook-square"></span></a>
+                            <a target="_blank" style="margin-left: 10px"
+                               href="https://www.facebook.com/Montasir.Haque?fref=ts"><span
+                                    class="fa fa-3x fa-twitter"></span></a>
+                            <a target="_blank" style="margin-left: 10px"
+                               href="https://www.facebook.com/Montasir.Haque?fref=ts"><span
+                                    class="fa fa-3x fa-linkedin-square"></span></a>
+                        </p>
+
+                    </figure>
+                    <!--photo-->
+                    <div class="info col-xs-8 col-xs-offset-3 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
+                        <h3>Md. Montasir Haque</h3>
+                        <h4>Chairman</h4>
+
+                        <p>Md. Montasir Haque is the guardian of Missy, a three-year old Llaso mix, who he adopted at
+                            e
+                        </p>
+                    </div>
+                    <!--info-->
+                </div>
+                <!--inner-row-->
+            </div>
+            <!-- doctor -->
+
+            <div class="doctor col-lg-6">
+                <div class="row">
+                    <figure class="effect-ggg photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
+                        <img class="img-circle" src="images/doctor-chase.jpg" alt="Photo of Dr Sanders">
+
+                        <p><a target="_blank"
+                              href="https://www.facebook.com/etrat.murin"><span
+                                class="fa fa-3x fa-facebook-square"></span></a>
+                            <a target="_blank" style="margin-left: 10px"
+                               href="https://www.facebook.com/etrat.murin"><span
+                                    class="fa fa-3x fa-twitter"></span></a></p>
+                    </figure>
+                    <!--photo-->
+                    <div class="info col-xs-8 col-xs-offset-3 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
+
+                        <h3>Itrat Murin</h3>
+                        <h4>Founder</h4>
+
+                        <p>Itrat Murin spends much of her free time helping the local rescue organization - a Maine Coon
+                            Cat who is part of the large Chase household, including two
+                        </p>
+                    </div>
+                    <!--info-->
+                </div>
+                <!--inner-row-->
+            </div>
+            <!-- doctor -->
+        </div>
+        <div class="row">
+            <div class="doctor col-lg-6">
+                <div class="row">
+                    <figure class="effect-ggg photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
+                        <img class="img-circle" src="images/doctor-chase.jpg" alt="Photo of Dr Sanders">
+
+                        <p><a target="_blank"
+                              href="https://www.facebook.com/Montasir.Haque?fref=ts"><span
+                                class="fa fa-3x fa-facebook-square"></span></a>
+                            <a target="_blank" style="margin-left: 10px"
+                               href="https://www.facebook.com/Montasir.Haque?fref=ts"><span
+                                    class="fa fa-3x fa-twitter"></span></a></p>
+                    </figure>
+                    <!--photo-->
+                    <div class="info col-xs-8 col-xs-offset-3 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
+
+                        <h3>Itrat Murin</h3>
+                        <h4>Founder</h4>
+
+                        <p>Itrat Murin spends much of her free time helping the local rescue organization find homes
+                            for
+                            animals, such
+                            two
+                        </p>
+                    </div>
+                    <!--info-->
+                </div>
+                <!--inner-row-->
+            </div>
+            <!-- doctor -->
+            <div class="doctor col-lg-6">
+                <div class="row">
+                    <figure class="effect-ggg photo col-xs-6 col-xs-offset-3 col-sm-3 col-sm-offset-1 col-md-2 col-md-offset-2 col-lg-4 col-lg-offset-0">
+                        <img class="img-circle" src="images/doctor-sanders.jpg" alt="Photo of Dr Sanders">
+
+                        <p><a target="_blank"
+                              href="https://www.facebook.com/Montasir.Haque?fref=ts"><span
+                                class="fa fa-3x fa-facebook-square"></span></a>
+                            <a target="_blank" style="margin-left: 10px"
+                               href="https://www.facebook.com/Montasir.Haque?fref=ts"><span
+                                    class="fa fa-3x fa-twitter"></span></a></p>
+                    </figure>
+                    <!--photo-->
+                    <div class="info col-xs-8 col-xs-offset-3 col-sm-7 col-sm-offset-0 col-md-6 col-lg-8">
+
+
+                        <h3>Aminul Islam Bipul</h3>
+                        <h4>Co-Founder</h4>
+
+                        <p> Bipul walked into Dr. Sanders front door when he was moving into a new house. After
+                            searching
+                            for
+                            weeks
+                            for Leroy's guardians, he decided to make Leroy a part of his pet family, and now has
+                            three
+                            cats.</p>
+                    </div>
+                    <!--info-->
+                </div>
+                <!--inner-row-->
+            </div>
+            <!-- doctor -->
+
+
+        </div>
+        <!--end of row-->
+
+
+    </div>
+    <!--end container-->
+
+</div>
+<!-- staff page -->
+
+<!--**********************************************page--testimonials************************************-->
+<div class="page" id="testimonials" style="padding-top: 50px">
+    <div class="container-fluid">
+        <h1>Testimonials</h1>
+
+        <div class="row">
+
+            <blockquote class="col-md-3  col-sm-6 col-lg-3" id="janeh">
+
+                <div class="quote">
+                    <span class="intro">During the summer, our rabbit, Tonto, began to have severe redness</span>
+                    <span class="more"> and itching on his belly and feet. Through diagnostic testing, we learned that Tonto is severely allergic to over a dozens kinds of grass pollens. We've now been doing allergy injections for several months, and his itching and redness have nearly gone away. I'm very thankful to the veterinarians and staff at Wisdom for the excellent care Tonto received, and for nipping his allergies in the bud, so to speak.</span>
+                    <span class="customer">Jane H.</span>
+                </div>
+            </blockquote>
+
+            <blockquote class="col-md-3  col-sm-6 col-lg-3" id="mcphersons">
+                <div class="quote">
+                    <span class="intro">When Samantha, our Siamese cat, began sleeping all the time</span>
+                    <span class="more">and urinating excessively, we brought her to see the specialists at Wisdom. After running a blood test, Dr. Winthrop confirmed what we all feared - Samantha was showing signs of diabetes. The doctor put us on a daily routine to provide Samantha insulin injections, and showed us how to administer the shots. We weren't sure we could do it, but the gang at Wisdom was very supportive and encouraging. Now, two years later, Samantha is still free from any complications of diabetes, and her blood sugar regularly tests normal. Thank you, Wisdom Pet Medicine!</span>
+                    <span class="customer">The McPhersons</span>
+                </div>
+            </blockquote>
+
+            <blockquote class="col-md-3 col-sm-6 col-lg-3" id="johnb">
+
+                <div class="quote">
+                    <span class="intro">The staff at Wisdom worked tirelessly to determine why our three-year old</span>
+                    <span class="more">Golden Retriever, Roxie, started going into sudden kidney failure. They stabilized her and provided fluids until her kidneys were again functioning normally, but it was still a mystery as to what caused her health to decline so quickly. The vet noted our address on Roxie's chart, and asked if we lived on one of the orchards in the vicinity, and if Roxie had a habit of eating grapes off the vine. Our answer was "of course – she's a Retriever." That day we learned just how toxic grapes and raisins are to pets, and Roxie is no longer allowed to roam unattended in the orchard.</span>
+                    <span class="customer">John B</span>
+                </div>
+            </blockquote>
+
+            <blockquote class="col-md-3 col-sm-6 col-lg-3" id="lorraines">
+                <div class="quote">
+                    <span class="intro">Wisdom Pet Medicine is the only clinic around that will even</span>
+                    <span class="more">book pet fish for appointments. When our 13-year old Comet goldfish, McAllister, turned from silvery white to an angry red, we called around, urgently trying to find a veterinarian who could help. Wisdom not only got us in the same day, but also was able to diagnose McAllister as having a severe case of septicemia. In order to kill the harmful bacteria in his blood, we had to use a dog antibiotic in his tank every day for a week, and in the end, McAllister was good as new. I still smile upon remembering Dr. Chase pulling out an old vet school textbook to calculate the correct antibiotic dose for a fish!</span>
+                    <span class="customer">Lorraine S</span>
+                </div>
+            </blockquote>
+        </div>
+        <!--end of row-->
+    </div>
+    <!--end container-->
+</div>
+<!-- testimonials page -->
+
+</div>
+<!-- main -->
+
+
+<footer>
+
+    <div class="content container-fluid">
+        <div class="row">
+            <div class="col-sm-6">
+                <p>Call us at <span class="phone">888-555-1212</span></p>
+
+                <p>Email: <span class="phone">wemb.bd@gmail.com</span></p>
+
+                <p>All contents &copy; 2015 <a href="#featured">wemb.com</a>. All rights reserved.</p>
+            </div>
+            <div class="col-sm-6">
+                <nav class="navbar navbar-default " role="navigation">
+                    <ul class="nav navbar-nav navbar-right ">
+
+
+                        <li><a class="b" target="_blank" href="https://www.facebook.com/wemb.bd?fref=ts"> <img
+                                src="images/n07.png" alt=""/> </a></li>
+                    </ul>
+
+                </nav>
+                <!--navbar navbar-default-->
+            </div>
+            <!--col-sm-6-->
+        </div>
+        <!--row-->
+    </div>
+    <!--end content container-->
+    <section class="cd-section" id="contact">
+        <!-- section content here -->
+
+        <div class="cd-modal-action">
+            <a href="#0" class="btn" data-type="modal-trigger">contact</a>
+            <span class="cd-modal-bg"></span>
+        </div>
+
+        <div class="cd-modal">
+            <div class="cd-modal-content">
+                <!-- ////////////////////////////////////////////////////////////////////////*****/////-->
+
+                <p>Under Construction !</p>
+
+                <p>coming soon.....</p>
+                <!-- ////////////////////////////////////////////////////////////////////////*****/////-->
+
+            </div>
+        </div>
+
+        <a href="#0" class="cd-modal-close">Close</a>
+    </section>
+</footer>
+
+
+<div id="ui8ads-container">
+   <div class="ui8ad">
+        <a class="ui8ad-image" target="_blank" href="https://www.facebook.com/wemb.bd?fref=ts">
+            <img src="" alt="Like Us On Facebook">
+        </a>
+		<span class="ui8ad-text">
+			<a target="_blank" href="https://www.facebook.com/wemb.bd?fref=ts"></a>
+		</span>
+		<span class="ui8ad-tag">
+            <div class="fb-like" data-href="https://www.facebook.com/wemb.bd" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+
+			<!--<a target="_blank" href="https://www.facebook.com/wemb.bd?fref=ts">wemb.bd</a>-->
+		</span>
+    </div>
+    <a href="#0" class="close-ui8-adv">Close</a>
+</div>
+<!-- ui8ads-container -->
+
+<!-- Latest compiled and minified Jquery -->
+<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/velocity.min.js"></script>
+
+<!-- <script type="text/javascript" src="http://arrow.scrolltotop.com/arrow37.js"></script> -->
+<script type="text/javascript" src="js/arrow37.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/morphi.js"></script>
+
+<script src="js/prefixfree.min.js"></script>
+<script src="js/TweenMax.min.js"></script>
+<script src="js/pagination.js"></script>
+<script src="js/myscript.js"></script>
+<script src="js/u8.js"></script>
+
+</body>
+</html>
